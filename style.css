@@ -1,4 +1,24 @@
-body {background-color:tan;}
-h1{color:green;}
-
-
+body {background-color:rgb(255, 255, 255);
+    font-family:arial;
+    color:rgb(0, 0, 0);
+    line-height: 25px;
+}
+h1{
+    color:black;
+    font-family:'Courier New', Courier, monospace;
+    box-shadow: 0 0 10px gray,0 0 40px gray,0 0 80px gray;
+}
+.maindiv{
+    background-color:rgb(207, 187, 187);
+    color:rgb(0, 0, 0);
+    border-radius:25px;
+    position: absolute;
+    top: 160px;
+    left: 246px;
+    height: auto;
+}
+footer{
+    position: absolute;
+    bottom: 120px;
+    left: 240px;
+}
